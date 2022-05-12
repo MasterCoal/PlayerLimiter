@@ -1,0 +1,26 @@
+name: PlayerLimiter
+version: ${project.version}
+main: coalmc.net.playerlimiter.PlayerLimiter
+api-version: 1.18
+depend: [ Vault ]
+permissions:
+  coalmc.overide:
+    default: op
+commands:
+  setplayerlimit:
+    aliases:
+        - spl
+    permission: coalmc.admin
+    permission-message: Unknown command. Type "/help" for help.
+  togglechat:
+    aliases:
+      - tc
+      - togchat
+    permission: coalmc.admin
+    permission-message: Unknown command. Type "/help" for help.
+  toggleevent:
+    aliases:
+      - te
+      - togevent
+    permission: coalmc.admin
+    permission-message: Unknown command. Type "/help" for help.
